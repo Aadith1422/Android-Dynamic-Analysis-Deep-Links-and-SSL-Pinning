@@ -5,22 +5,7 @@
 **Tools Used:** Frida 17.10.1, Genymotion Emulator, Burp Suite  
 **Environment:** Ubuntu (aadith@aadith-LOQ-15IAX9), Android API 30 (Genymotion Phone 570x1230, 220dpi)
 
----
 
-## Task Overview
-
-The lab covered the following objectives:
-
-![Task Objectives](screenshot_task_objectives.png)
-
-> a) Study SSL pinning concepts and common implementations in Android apps (certificate pinning, public key pinning, okhttp pinning).  
-> b) Learn Frida basics — spawn/attach, hooking functions, writing scripts to bypass pinning.  
-> c) **Practical exercise:** craft and run Frida scripts to intercept and bypass pinning checks (hook platform SSL functions or OKHttp).  
-> d) **Record PoC steps**, Frida script snippets, and screenshots showing successful interception of HTTPS traffic.
-
-This report covers the **practical execution (tasks c & d)** across two distinct targets.
-
----
 
 ## Section A: Root Detection Bypass — OWASP UnCrackable Level 1
 
